@@ -1,0 +1,58 @@
+
+/* Page styling */
+
+body {
+  margin: 0;
+  background-color: #17241f;
+  color: #f4efe5;
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+/* Clock container */
+
+.clock-container {
+  text-align: center;
+  padding: 30px;
+}
+
+/* Main heading */
+
+h1 {
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+/* Time display */
+
+#time {
+  font-size: clamp(32px, 10vw, 80px);
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Date display */
+
+#date {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Local time label */
+
+.label {
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-top: 35px;
+}
